@@ -1,0 +1,62 @@
+
+    pthread_atfork - register handlers to be called at fork(2) time
+    pthread_attr_destroy [pthread_attr_init] - thread creation attributes
+    pthread_attr_getdetachstate [pthread_attr_init] - thread creation attributes
+    pthread_attr_getinheritsched [pthread_attr_init] - thread creation attributes
+    pthread_attr_getschedparam [pthread_attr_init] - thread creation attributes
+    pthread_attr_getschedpolicy [pthread_attr_init] - thread creation attributes
+    pthread_attr_getscope [pthread_attr_init] - thread creation attributes
+    pthread_attr_init - thread creation attributes
+    pthread_attr_setdetachstate [pthread_attr_init] - thread creation attributes
+    pthread_attr_setinheritsched [pthread_attr_init] - thread creation attributes
+    pthread_attr_setschedparam [pthread_attr_init] - thread creation attributes
+    pthread_attr_setschedpolicy [pthread_attr_init] - thread creation attributes
+    pthread_attr_setscope [pthread_attr_init] - thread creation attributes
+
+    pthread_cancel - thread cancellation
+
+    pthread_cleanup_pop [pthread_cleanup_push] - install and remove cleanup handlers
+    pthread_cleanup_pop_restore_np [pthread_cleanup_push] - install and remove cleanup handlers
+    pthread_cleanup_push - install and remove cleanup handlers
+    pthread_cleanup_push_defer_np [pthread_cleanup_push] - install and remove cleanup handlers
+
+    pthread_condattr_destroy [pthread_condattr_init] - condition creation attributes
+    pthread_condattr_init - condition creation attributes
+    pthread_cond_broadcast [pthread_cond_init] - operations on conditions
+    pthread_cond_destroy [pthread_cond_init] - operations on conditions
+    pthread_cond_init - operations on conditions
+    pthread_cond_signal [pthread_cond_init] - operations on conditions
+    pthread_cond_timedwait [pthread_cond_init] - operations on conditions
+    pthread_cond_wait [pthread_cond_init] - operations on conditions
+
+    pthread_create - create a new thread
+    pthread_detach - put a running thread in the detached state
+    pthread_equal - compare two thread identifiers
+    pthread_exit - terminate the calling thread
+    pthread_getschedparam [pthread_setschedparam] - control thread scheduling parameters
+    pthread_getspecific [pthread_key_create] - management of thread-specific data
+    pthread_join - wait for termination of another thread
+    pthread_key_create - management of thread-specific data
+    pthread_key_delete [pthread_key_create] - management of thread-specific data
+    pthread_kill_other_threads_np - terminate all threads in program except calling thread
+    pthread_kill [pthread_sigmask] - handling of signals in threads
+
+    pthread_mutexattr_destroy [pthread_mutexattr_init] - mutex creation attributes
+    pthread_mutexattr_getkind_np [pthread_mutexattr_init] - mutex creation attributes
+    pthread_mutexattr_init - mutex creation attributes
+    pthread_mutexattr_setkind_np [pthread_mutexattr_init] - mutex creation attributes
+
+    pthread_mutex_destroy [pthread_mutex_init] - operations on mutexes
+    pthread_mutex_init - operations on mutexes
+    pthread_mutex_lock [pthread_mutex_init] - operations on mutexes
+    pthread_mutex_trylock [pthread_mutex_init] - operations on mutexes
+    pthread_mutex_unlock [pthread_mutex_init] - operations on mutexes
+
+    pthread_once - once-only initialization
+    pthread_self - return identifier of current thread
+    pthread_setcancelstate [pthread_cancel] - thread cancellation
+    pthread_setcanceltype [pthread_cancel] - thread cancellation
+    pthread_setschedparam - control thread scheduling parameters
+    pthread_setspecific [pthread_key_create] - management of thread-specific data
+    pthread_sigmask - handling of signals in threads
+    pthread_testcancel [pthread_cancel] - thread cancellation

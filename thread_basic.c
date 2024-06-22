@@ -1,3 +1,7 @@
+/*
+*   C compiler: gcc -o out thread_basic.c -lpthread
+*   C++ compiler: g++ -o out thread_basic.c -lpthread
+*/
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h> //sleep
